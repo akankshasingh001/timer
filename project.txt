@@ -1,0 +1,17 @@
+What are project will do
+1. Display a timer
+2. Shows an animated border around the timer
+
+//Implementation of Timer
+1. Create a class Timer
+2. On class Time We have couple of diff methods
+   a).start()
+   b).pause()
+   c).onDurationChange()
+   d).tick()
+
+   // 
+   offset = (perimeter * timeRemaining)/totalDuration - perimeter;
+   so that ,
+   Start - dasharray = perimeter and dashoffset = 0;
+   And at End - dasharray = perimeter and dashoffset = -1 * perimeter; 
