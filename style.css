@@ -17,10 +17,15 @@ input[type='number'] {
 .timer {
   position: relative;
   display: inline-block;
+  padding-left: 35%;
 }
 
 h1 {
   font-size: 40px;
+  text-align: center;
+}
+p {
+  text-align: center;
 }
 * {
   font: inherit;
@@ -56,7 +61,7 @@ body {
 .controls {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 55%;
   right: 0;
   bottom: 0;
   display: flex;
